@@ -1,0 +1,603 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+header {
+    margin: 15px auto;
+    width: 70%;
+    height: 10px;
+    font-size: 70%;
+    font-weight:800;
+}
+
+nav {
+    margin: 20px auto;
+    width: 100%;
+    height: 60px;
+    background-color: #e10600;
+}
+
+ul.nav {
+    list-style: none;
+    width: 100%;
+    height: 60px;
+}
+
+li.header1 {
+    float: left;
+    display: inline;
+    padding: 0px 30px 0px 0px;
+}
+
+li.header2 {
+    float: right;
+    display: inline;
+    padding: 0px 0px 0px 30px;
+}
+
+li.nav {
+    float: left;
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+div.contenedor_general:hover {
+    margin-top:-60px;
+}
+div.contenedor_general{
+    width:200px;
+    height: 80px;
+    background-color: #e10600;
+    -webkit-transition: margin-top 0.7s;
+}
+
+div.rojoentero {
+    background-color: #e10600;
+    width: 70%;
+    height: 60px;
+    margin: 20px auto;
+}
+
+div.contenedor_uno {
+    width: 200px;
+    height: 56px;
+    background-color: #e10600;
+    overflow: hidden;
+    border-bottom: 4px solid #000000;
+}
+
+div.contenedor_uno_es {
+    width: 200px;
+    height: 56px;
+    background-color: black;
+    overflow: hidden;
+    border-bottom: 4px solid #000000;
+}
+
+div.contenedor_dos {
+    width: 200px;
+    height: 56px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+p.texto_uno {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 18px;
+    color: black;
+}
+
+p.texto_uno_es {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 18px;
+    color: white;
+}
+
+p.texto_dos {
+    text-align: center;
+    margin-top: 18px;
+    color: white;
+}
+
+
+a.link1 {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+a.link2 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+a.link2:hover {
+    color: #e10600;
+    text-decoration:underline 2.5px;
+}
+
+a.link3 {
+    color: black;
+    text-decoration: none;
+}
+
+div.footer {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+}
+
+div.lista {
+    margin: 15px auto;
+}
+
+div.lista ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+div.lista ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 7px 5px 3px black;
+    text-shadow: 4px 2px 1px black;
+}
+
+div.lista a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div.lista a:hover {
+    text-decoration: 2px underline;
+    text-decoration-color: #e10600;
+}
+
+footer {
+    width: 100%;
+    margin: 15px auto;
+    background-color: #15151e;
+    color: #fff;
+    display: flex;
+}
+
+section {
+    margin: 30px auto;
+    width: 75%;
+}
+
+article.a1 {
+    font-size: 62px;
+    margin: 15px 0px 40px 0px;
+}
+
+article.a2 {
+    margin-top: 30px;
+}
+
+div.h1 {
+    border: 10px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.h2 {
+    margin-top: 15px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+div.e1redbull { /* Div general que incluye todo el cuadro de cada equipo */
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1redbull:hover {   /* Cambio de color del borde al color del respectivo equipo, de ahí la creación de 10 div iguales a diferencias del color */
+    border: 3px solid #3671C6;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1ferrari {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1ferrari:hover {
+    border: 3px solid #F91536;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1mercedes {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1mercedes:hover {
+    border: 3px solid #6CD3BF;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1alpine {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1alpine:hover {
+    border: 3px solid #2293D1;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1mclaren {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1mclaren:hover {
+    border: 3px solid #F58020;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1alfaromeo {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1alfaromeo:hover {
+    border: 3px solid #C92D4B;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1astonmartin {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1astonmartin:hover {
+    border: 3px solid #358C75;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1haas {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1haas:hover {
+    border: 3px solid #B6BABD;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1alphatauri {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1alphatauri:hover {
+    border: 3px solid #5E8FAA;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e1williams {
+    float: left;
+    border: 3px solid black;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+    max-width: 50%;
+    margin: 15px 25px 25px 15px;
+}
+
+div.e1williams:hover {
+    border: 3px solid #37BEDD;
+    border-radius: 25px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-end-end-radius: inherit;
+    border-start-start-radius: inherit;
+}
+
+div.e2 h1{
+    margin: 3px 0px 3px 0px;
+}
+
+div.e2 {    /* Primera parte del div general, que incluye el número del equipo en la clasificación */
+    font-size: 35px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-right: 7px;
+}
+
+div.e3 {    /* Segunda parte del div general, que incluye el nombre del equipo y su logo */
+    display: flex;
+    border: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-right: 7px;
+    justify-content: space-between;
+}
+
+div.e4redbull { /* Barra del color del equipo que se muestra al lado del nombre, por eso hay 10 div con los colores de los diferentes equipos */
+    border: 7px solid #3671C6;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4ferrari {
+    border: 7px solid #F91536;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4mercedes {
+    border: 7px solid #6CD3BF;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4alpine {
+    border: 7px solid #2293D1;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4mclaren {
+    border: 7px solid #F58020;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4alfaromeo {
+    border: 7px solid #C92D4B;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4astonmartin {
+    border: 7px solid #358C75;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4haas {
+    border: 7px solid #B6BABD;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4alphatauri {
+    border: 7px solid #5E8FAA;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+div.e4williams {
+    border: 7px solid #37BEDD;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+p.e4 {
+    font-size: 28px;
+    margin: 3px 3px 3px 10px;
+}
+
+div.e5 {
+    float: right;
+}
+
+div.e5 img {
+    width: 50px;
+    height: 50px;
+    margin: 3px 3px 3px 3px;
+}
+
+div.e6 {    /* Tercera parte del div genera, que incluye los nombres de los pilotos y sus fotos */
+    display: flex;
+    margin-right: 7px;
+    justify-content: space-between;
+}
+
+div.e7 {
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 25px;
+    border-start-end-radius: inherit;
+    border-end-start-radius: inherit;
+    width: 48%;
+    max-width: 48%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
+
+div.e7 p {
+    float: left;
+}
+
+div.e7 img {
+    float: right;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+div.e8 {
+    max-width: 48%;
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 25px;
+    border-start-end-radius: inherit;
+    border-end-start-radius: inherit;
+    width: 48%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.e8 p {
+    float: left;
+}
+
+div.e8 img {
+    float: right;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+img.e9 {    /* Ultima parte del div general, con los estilos que aplicarle a la imagen del coche de cada equipo */
+    max-width: 95%;
+    display: block;
+    margin:auto;
+}
